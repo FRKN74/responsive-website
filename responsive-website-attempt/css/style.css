@@ -1,0 +1,487 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@100&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+}
+.wrapper{
+    width: 100%;
+}
+.wrapper .banner{
+    width: 100%;
+    height: 100vh;
+    background-position: center center;
+    background:url("/images/bokeh_car_lights_bg.jpg");
+    background-size: cover;
+    position: relative;
+    box-sizing: border-box;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    transition: all .5s;
+}
+.wrapper .banner header {
+    margin:0 auto;
+    position: absolute;
+    width: 100%;
+    align-self: flex-start;
+}
+.wrapper .banner header h1{
+    position: absolute;
+    font-size: 1.5em;
+    margin-left: 30px;
+    top: 30px;
+    color:white;
+    text-transform: uppercase;
+    float: left;
+}
+.wrapper .banner header nav.menu ul{
+    position: absolute;
+    float: right;
+    right: 30px;
+    top: 0;
+    list-style-type: none;
+}
+.wrapper .banner header nav.menu ul li{
+    display: block;
+    padding: 30px;
+    float: left;
+}
+.wrapper .banner header nav.menu ul li a{
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+    font-weight: 100;
+}
+.wrapper .banner header nav.menu ul li a:hover{
+    color: wheat;
+    transition: .2s ease-in-out;
+    cursor: pointer;
+}
+.wrapper .banner .yazi .altbaslik{
+    color: white;
+    font-size: 3em;
+    margin-bottom: 20px;
+    transition: all .5s;
+}
+.wrapper .banner .yazi p {
+    color: white;
+    font-size: 1.5em;
+    line-height: 1.5em;
+    margin-bottom: 50px;
+    transition: all .5s;
+}
+.wrapper .banner .yazi .buton a{
+    text-decoration: none;
+    font-size: 1em;
+    color: white;
+    padding: 15px 40px;
+    background: #3cadd4;
+    list-style-type: none;
+    border-radius: 20px;
+    transition: all .5s;
+}
+.wrapper .banner .yazi .buton a:hover{
+    background: #61c1e1;
+    transition: backgroun-color 0.2s ease-in-out;
+}
+
+section.bolum1{
+    width: 100%;
+    background-color: #f5f5f5;
+    padding: 100px 0;
+    text-align: center;
+    margin-bottom: 0.5em;
+}
+
+section.bolum1 h2{
+    color: #474747;
+    font-size: 3em;
+    font-weight: 300;
+    line-height: 1em;
+    margin-bottom: 0.5em;
+}
+section.bolum1 h2 + p{
+    color: #858585;
+    font-size: 1.3em;
+    margin-bottom: 0.5em;
+}
+section .container{
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+section .container .kutu{
+    flex-basis: 300px;
+    flex-shrink: 0;
+    flex-grow: 1;
+    background-color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    margin-right: 20px;
+    align-self: flex-start;
+    transition: all .5s;
+}
+section .container .kutu:nth-last-child(1){
+    margin-right: 0;
+}
+section .container .kutu i{
+    font-size: 2em;
+    border-radius: 50%;
+    padding: 40px;
+    color: #fff;
+}
+section .container .kutu i.birinci{
+    background-color: #3cadd4;
+}
+section .container .kutu i.ikinci{
+    background-color:#add43c;
+}
+section .container .kutu i.ucuncu{
+    background-color: #d45c61;
+}
+section .container .kutu h3{
+    margin: 20px 0;
+    color: #858585;
+    font-size: 1.5em;
+    font-weight: 700;
+}
+section .container .kutu p{
+    color: #858585;
+    font-size: 1em;
+    font-weight: 100;
+    padding: 0 30px 20px 30px;
+    line-height: 1.5em;
+}
+
+section.bolum2{
+    width: 100%;
+    background: #fff;
+    border-top: 1px solid #d1d1d1;
+    box-sizing: border-box;
+    text-align: center;
+    display: block;
+    padding-top: 80px;
+}
+section.bolum2 h2{
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #474747;
+    font-weight: 900;
+}
+section.bolum2 h2+p{
+    font-size: 1.3em;
+    margin-bottom: 80px;
+    color: #858585;
+}
+section.bolum2 .kisiler{
+    width: 100%;
+    border-top: 1px solid #d1d1d1;
+    border-bottom: 1px solid #d1d1d1;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+section.bolum2 .kisiler .kisi{
+    flex-basis: 220px;
+    margin: 50px 10px;
+    text-align: left;
+    flex-grow: 1;
+    transition: all .5s;
+}
+section.bolum2 .kisiler .kisi img{
+    float: left;
+    width: 100px;
+    border-radius: 50%;
+    margin: 5px 10px;
+}
+section.bolum2 .kisiler .kisi h4{
+    margin-top: 25px;
+    font-size: 1.1em;
+    margin-bottom: 5px;
+}
+section.bolum2 .kisiler .kisi p{
+    font-size: 0.9em;
+    margin-bottom: 5px;
+}
+section.bolum2 article{
+    margin: 50px auto;
+    width: 70%;
+}
+section.bolum2 article p{
+    font-size: 1em;
+    line-height: 1.6em;
+    color: #444;
+}
+section.bolum2 ul li{
+    list-style-type: none;
+}
+section.bolum2 ul li a{
+    background: #3cadd4;
+    border-radius: 30px;
+    border: 0;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 400;
+    padding: 1em 2em ;
+    text-align: center;
+    margin-top: 70px ;
+    text-decoration: none;
+    color: #fff;
+}
+section.bolum2 ul li a:hover{
+    background: #61c1e1;
+    transition: background-color .2s ease-in-out;
+    cursor: pointer;
+}
+
+section.bolum3{
+    width: 100%;
+    display: block;
+    background: #3cadd4;
+    padding: 70px 0 10px;
+    text-align: center;
+}
+section.bolum3 h2{
+    font-size: 3em;
+    color: #fff;
+    margin-bottom: 20px;
+}
+section.bolum3 h2+p{
+    font-size: 1.4em;
+    color: #fff;
+    letter-spacing: 2px;
+
+}
+section.bolum3 .container .form{
+    width: 800px;
+    margin: 70px auto;
+}
+
+section.bolum3 .container .form input[type="text"]{
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1em;
+    outline: none;
+    border: none;
+}
+section.bolum3 .container .form input[type="email"]{
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1em;
+    outline: none;
+    border: none;
+}
+section.bolum3 .container .form textarea{
+    color: #444;
+    width: 600px;
+    height: 30px;
+    border-radius: 5px;
+    padding: 3px 10px;
+    font-size: 1em;
+    height: 150px;
+    border-radius: 5px;
+    margin-top: 20px;
+    border: none;
+    outline: none;
+}
+section.bolum3 .container .form input[type="button"]{
+    margin-top: 70px;
+    font-size: 1.1em;
+    padding: 15px 50px;
+    background: #383b43;
+    color: #fff;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+section.bolum3 .container .form input[type="button"]:hover{
+    background: #4c4c4c;
+    transition: background-color .2s ease-in-out;
+}
+
+footer {
+    width: 100%;
+    background: #383b43;
+    padding: 30px 0;
+}
+footer .container{
+    margin-top: 50px;
+    border-bottom: 1px solid #979797;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+footer .icerik .container .footerkutu{
+    margin-left: 20px;
+    width: 200px;
+    transition: all .5s;s
+}
+footer h3{
+    color: #fff;
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+footer .container ul {
+    display: block;
+    width: 100%;
+    float: left;
+    margin-bottom: 30px;
+    list-style-type: none;
+}
+footer .container ul a{
+    text-decoration: none;
+    font-size: 0.9em;
+    line-height:2.5em;
+    color: #cdced0;
+
+}
+footer .container ul a:hover{
+    text-decoration: underline;
+
+}
+footer .sosyal{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+footer .lisans{
+    width: 100%;
+    margin: 20px auto;
+}
+footer .lisans p{
+    color:#585858;
+    float: left;
+    margin-top: 15px;
+    display: inline-block;
+}
+footer .icons{
+    float: right;
+}
+footer .icons i{
+    text-align: center;
+    width: 45px;
+    height: 45px;
+    padding: 10px;
+    border-radius: 50%;
+    font-size: 1.5em;
+    color: #fff;
+    cursor: pointer;
+}
+footer .icons i.face{
+    background: #39399f;
+}
+footer .icons i.twitter{
+    background: #2daae4;
+}
+footer .icons i.linkedin{
+    background: #31516a;
+}
+footer .temizle{
+    clear: both;
+}
+
+@media screen and (max-width:980px) {
+    .wrapper .banner{
+        height: 60vh;
+        transition: all .5s;
+    }
+    .wrapper .banner .yazi .altbaslik{
+        font-size: 2em;
+        transition: all .5s;
+    }
+    .wrapper .banner .yazi p{
+        font-size: .8em;
+        transition: all .5s;
+    }
+    .wrapper .banner .yazi .buton a{
+        font-size: .8em;
+        padding: 10px 50px;
+        transition: all .5s;
+        
+    }
+    section .container .kutu{
+        flex-basis: 100%;
+        flex-direction: column;
+        transition: all .5s;
+    }
+    section.bolum2 .kisiler .kisi{
+        flex-basis: 40%;
+        text-align: center;
+        transition: all .5s;
+    }
+    footer .icerik .container .footerkutu{
+        width: 40%;
+        transition: all .5s;
+    }
+}
+
+@media screen and (max-width:620px) {
+
+    section.bolum2 .kisiler .kisi{
+        flex-basis: 100%;
+        text-align: center;
+        transition: all .5s ease-in-out;
+    }
+    section.bolum2 .kisiler .kisi img{
+        text-align: center;
+        float: none;
+        transition: all .5s ease-in-out;
+    }
+    section.bolum3 .container .form{
+        width: 100%;
+        margin: 70px auto;
+        transition: all .5s ease-in-out;
+    }
+    section.bolum3 .container .form input[type="text"]{
+        margin-bottom: 5px;
+        width: 80%;
+        transition: all .5s ease-in-out;
+    }
+    section.bolum3 .container .form input[type="email"]{
+        margin-bottom: 5px;
+        width: 80%;
+        transition: all .5s ease-in-out;
+    }
+    section.bolum3 .container .form textarea{
+        width: 490px;
+        transition: all .5s ease-in-out;
+    }
+
+
+    footer .icerik .container .footerkutu{
+        width: 100%;
+        text-align: center;
+        transition: all .5s ease-in-out;
+    }
+    footer .icons{
+        clear: both;
+        float: none;
+        text-align: center;
+        transition: all .5s ease-in-out;
+    }
+    footer .lisans p{
+        float: none;
+        margin-left: 50px;
+        transition: all .5s ease-in-out;
+    }
+    footer .icons i{
+        margin-top: 20px;
+        transition: all .5s ease-in-out;
+    }
+    
+}
